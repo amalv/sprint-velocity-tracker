@@ -1,8 +1,6 @@
 import matplotlib.pyplot as plt
 import argparse
 import numpy as np
-import random
-import sys
 
 def calculate_percentage_change(start_value, end_value):
     if np.isnan(start_value) or np.isnan(end_value):
